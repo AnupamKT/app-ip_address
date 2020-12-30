@@ -31,7 +31,8 @@ class IpAddress {
     // Developer Hub https://developer.itential.io/ located
     // under Documentation -> Developer Guides -> Log Class Guide
     log.info('Starting the IpAddress product.');
-	/**
+	 }
+ /*
  * Calculate and return the first host IP address from a CIDR subnet.
  * @param {string} cidrStr - The IPv4 subnet expressed
  *                 in CIDR format.
@@ -73,6 +74,5 @@ class IpAddress {
   // data as the second argument to the callback function.
   return callback(firstIpAddress, callbackError);
 }
-  }
 }
 module.exports = new IpAddress;
